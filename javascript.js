@@ -5,7 +5,7 @@ function mergeSort(array) {
   }
 
   // Recursive calling function
-  const mid = Math.floor(array.length) /2;
+  const mid = Math.floor(array.length) / 2;
   const left = mergeSort(array.slice(0, mid));
   const right = mergeSort(array.slice(mid, array.length));
 
